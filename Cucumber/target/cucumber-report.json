@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login Feature validation",
+        "description": "Validate the Login Functionality",
+        "id": "validating-feature-file;login-feature-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135549971,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in login page",
+            "match": {
+              "location": "StepDefClass.i_am_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67950,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login with valid credentials",
+            "match": {
+              "location": "StepDefClass.login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124050,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Home page should display",
+            "match": {
+              "location": "StepDefClass.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@BDDTEST-FNFHW-13"
+          },
+          {
+            "line": 5,
+            "name": "@BDDVER--1"
+          },
+          {
+            "line": 5,
+            "name": "@BDDCYC-35b221f1-4573-4266-8bb6-f0e7c199dcff"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Home Page Validation",
+        "description": "Validate Home page links",
+        "id": "validating-feature-file;home-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92839,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am in Home page",
+            "match": {
+              "location": "StepDefClass.i_am_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219259,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "check all the links",
+            "match": {
+              "location": "StepDefClass.check_all_the_links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184099,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate all the links should working fine",
+            "match": {
+              "location": "StepDefClass.validate_all_the_links_should_working_fine()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@BDDTEST-FNFHW-14"
+          },
+          {
+            "line": 13,
+            "name": "@BDDVER--1"
+          },
+          {
+            "line": 13,
+            "name": "@BDDCYC-35b221f1-4573-4266-8bb6-f0e7c199dcff"
+          }
+        ]
+      }
+    ],
+    "name": "Validating feature file",
+    "description": "Validating Features",
+    "id": "validating-feature-file",
+    "keyword": "Feature",
+    "uri": "C:/Users/rjarayht/Cucumber/Cucumber/FNFHW-12.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BDDSTORY-FNFHW-12"
+      }
+    ]
+  }
+]
